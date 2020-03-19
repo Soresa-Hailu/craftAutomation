@@ -33,9 +33,28 @@ public class DropDownDemo2 {
 		{
 			elt.sendKeys(Keys.ARROW_DOWN);
 		}
+		
+WebElement elt1 = driver.findElement(By.id("header-search-input"));
+		
+		elt1.sendKeys("selenium");
+		Thread.sleep(2000);
+        
+		for(int j=1; j<=3; j++) 
+		{
+			elt1.sendKeys(Keys.ARROW_DOWN);
+		}
+WebElement elt2 = driver.findElement(By.id("header-search-input"));
+		
+		elt2.sendKeys("selenium");
+		Thread.sleep(2000);
+        
+		for(int j=1; j<=3; j++) 
+		{
+			elt2.sendKeys(Keys.ARROW_DOWN);
+		}
 
 
-		elt.sendKeys(Keys.ENTER);
+		elt2.sendKeys(Keys.ENTER);
 		
 		
 //		WebElement elt =  driver.findElement(By.id("header-search-input"));
