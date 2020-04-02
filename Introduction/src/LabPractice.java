@@ -22,6 +22,11 @@ public class LabPractice {
         driver.findElement(By.id("name")).sendKeys("Soresa Hailu");
         driver.findElement(By.id("alertbtn")).click();
         System.out.println(driver.switchTo().alert().getText());
+        
+    	driver.get("https://rahulshettyacademy.com/AutomationPractice");
+        driver.findElement(By.id("name")).sendKeys("Soresa Hailu");
+        driver.findElement(By.id("alertbtn")).click();
+        System.out.println(driver.switchTo().alert().getText());
         driver.switchTo().alert().accept();
         
         Thread.sleep(20000);
