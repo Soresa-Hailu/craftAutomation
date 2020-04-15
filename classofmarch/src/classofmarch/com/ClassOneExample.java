@@ -3,7 +3,8 @@ package classofmarch.com;
 import java.util.Scanner;
 
 public class ClassOneExample {
-
+	
+	
 	public static void main(String[] args) {
 		
 	    Scanner in = new Scanner(System.in);
@@ -18,6 +19,7 @@ public class ClassOneExample {
 	    double bonus = in.nextDouble();
 	    
 		double total_salary  = salary+bonus;
+
 		
 		System.out.println("the name of the employee is : " + name);
 		System.out.println("the salary of the employee is : " + salary);
