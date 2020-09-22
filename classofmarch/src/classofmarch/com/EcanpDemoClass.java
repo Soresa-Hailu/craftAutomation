@@ -10,31 +10,6 @@ class EncapsulationDemo{
 	private double salary;
 	private double bonus;
 	
-//	 EncapsulationDemo(){
-//		
-//	}
-	
-	
-//	EncapsulationDemo()
-//	{
-//		fname ="one";
-//		lname ="two";
-//		age = 20;
-//		salary = 2000;
-//		bonus = 2344;
-//		
-//	}
-	
-	EncapsulationDemo(String fname, String lname, int age, double salary, double bonus)
-	{
-		this.fname =fname;
-		this.lname =lname;
-		this.age = age;
-		this.salary = salary;
-		this.bonus = bonus;
-		
-	}
-	
 	
 	public String getFname() {
 		return fname;
@@ -96,17 +71,15 @@ class EncapsulationDemo{
 		// TODO Auto-generated method stub
 
 		
-		EncapsulationDemo encap = new EncapsulationDemo("james","Abebe",22,22345,234);
+		EncapsulationDemo encap = new EncapsulationDemo();
 		
 		Scanner in = new Scanner(System.in);
 		
-//		EncapsulationDemo encap2 = new EncapsulationDemo(23);
-		
-//		encap.setFname("James");
-//		encap.setLname("jone");
-//		encap.setAge(23);
-//		encap.setSalary(30000);
-//		encap.setBonus(2000);
+		encap.setFname("James");
+		encap.setLname("jone");
+		encap.setAge(23);
+		encap.setSalary(30000);
+		encap.setBonus(2000);
 		
 		System.out.println(encap.getFname());
 		System.out.println(encap.getLname());

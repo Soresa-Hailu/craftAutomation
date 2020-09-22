@@ -1,16 +1,6 @@
 package classofmarch.com;
 
 public class Calculator {
-
-//	int value=4;
-//	double value1 =3.4;
-//	float value2 = 3.5f;
-//	
-//	char value3= 'A';
-//	
-//	String value4 = "name";
-//	byte value5 = 5;
-//	
 	
 	
 	public static int add(int a, int b) {

@@ -11,7 +11,6 @@ public class AvgMarkStudent {
 		double avg=0;
 		
 
-		
 //		for(double i:markOfStudent) 
 //		{
 //			sum = sum+i;

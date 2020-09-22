@@ -9,22 +9,22 @@ public class ArrayClass {
 		// TODO Auto-generated method stub
 
 		
-//		Scanner in = new Scanner(System.in);
-//        System.out.println("pls enter the size of an array");
-//        int arraySize = in.nextInt();
-//        
-//        
-//        int nameOfStudent[] = new int[arraySize];
-//        
-//        System.out.println("pls enter the element of an array");
-//        for(int i=0; i<nameOfStudent.length; i++) {
-//       	 System.out.println("the element input at index : "+ i + " is " + (nameOfStudent[i]= in.nextInt()));
-//        }
-//        System.out.println();
-//        
-//       for(int j=0; j<nameOfStudent.length; j++) {
-//       	System.out.println("the element output at index : "+ j + " is " +nameOfStudent[j]);
-//       }
+		Scanner in = new Scanner(System.in);
+        System.out.println("pls enter the size of an array");
+        int arraySize = in.nextInt();
+        
+        
+        int nameOfStudent[] = new int[arraySize];
+        
+        System.out.println("pls enter the element of an array");
+        for(int i=0; i<nameOfStudent.length; i++) {
+       	 System.out.println("the element input at index : "+ i + " is " + (nameOfStudent[i]= in.nextInt()));
+        }
+        System.out.println();
+        
+       for(int j=0; j<nameOfStudent.length; j++) {
+       	System.out.println("the element output at index : "+ j + " is " +nameOfStudent[j]);
+       }
 		
 		
 		 String[] nameOfCommon = new String[60];   //0-59
@@ -73,10 +73,10 @@ public class ArrayClass {
         	System.out.println(ageOfStudent[m]);
         }
         
-//         System.out.println(nameOfCommon[0]);
-//         System.out.println(nameOfCommon[1]);
-//         System.out.println(nameOfCommon[2]);
-//         System.out.println(nameOfCommon[3]);
+         System.out.println(nameOfCommon[0]);
+         System.out.println(nameOfCommon[1]);
+         System.out.println(nameOfCommon[2]);
+         System.out.println(nameOfCommon[3]);
 	}
 
 }

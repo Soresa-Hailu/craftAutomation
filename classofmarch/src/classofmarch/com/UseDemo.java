@@ -2,7 +2,7 @@ package classofmarch.com;
 
 
 class Demo{
-	
+	int one;
 	public void show(int number) {
 	System.out.println("In int " + number);	
 	}
